@@ -82,18 +82,7 @@ class _PigPageState extends State<PigPage> {
                               width: 300,
                               height: 110,
                               padding: const EdgeInsets.symmetric(vertical: 10.0),
-                              decoration: BoxDecoration(
-                                  color: Colors.white,
-                                  boxShadow: [
-                                    BoxShadow(
-                                      color: Colors.black12.withOpacity(1.0),
-                                      offset: const Offset(8.0, 5.0),
-                                      blurRadius: 10.0,
-                                      spreadRadius: 3.0,
-                                    ),
-                                  ]
 
-                              ),
                               color: Colors.white,
                               child: Column(
                                 children: [
@@ -105,7 +94,6 @@ class _PigPageState extends State<PigPage> {
                                   ),
                                   Padding(
                                     padding: const EdgeInsets.all(8.0),
-
                                     child: TextField(
                                       controller: _controller2,
                                         textAlign: TextAlign.center,
